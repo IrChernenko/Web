@@ -1,0 +1,19 @@
+
+form {
+    background-color: #B5B5B5;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+}
+div {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+div p {
+    margin-bottom: 10px;
+}
+input {
+    border: 1px solid dimgray;
+    border-radius: 3px;
+
+}
