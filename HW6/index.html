@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW6-Form</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form action="#" method="post">
+        <div class="add_name">
+            <label for="name">Повне Ім'я</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Пошта</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="Password1">Пароль еще раз</label>
+            <input type="password" id="Password1" name="password1">
+        </div>
+        <div>
+            <span>Стать</span>
+            <label for="gender">Чоловіча</label>
+            <input type="radio" id="gender" name="genger" value="male">
+            <label for="gender2">Жіноча</label>
+            <input checked type="radio" id="gender2" name="genger" value="female">
+        </div>
+        <div>
+            <label for="age">Вік</label>
+            <input type="number" id="age" name="age" min="1" max="100">
+        </div>
+        <div>
+            <label for="course">Курс</label>
+            <select name="course" id="course">
+                <option value="">--Виберіть курс--</option>
+                <option value="Front-End">Front-End</option>
+                <option value="Back-End">Back-End</option>
+                <option value="Project Management">Project Management</option>
+                <option value="QA Manual">QA Manual</option>
+            </select>
+        </div>
+        <div>
+            <label for="adress">Повна адреса</label>
+            <textarea name="adress" id="adress" placeholder="Країна, регіон, місто,селище, вулиця"></textarea>
+        </div>
+    <div><p><input type="checkbox" name="agriment" value="yes">Я погоджуюсь з обробкою персональних даних</p>
+        <button type="reset">Очистити форму</button>
+        <button type="submit">Зареєструватися</button>
+    </div>
+</form>
+</body>
+</html>
