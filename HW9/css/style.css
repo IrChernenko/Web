@@ -1,0 +1,161 @@
+body {
+    max-width: 1440px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    /*background: #F2F2F2;*/
+
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+/*--------------Header----------------------------------*/
+.header {
+    display: flex;
+    margin: 0 auto 167px;
+    padding: 27px 0;
+    align-items: center;
+
+
+}
+
+.logo {
+    display: flex;
+    margin-right: 190px;
+}
+
+.logo_icon {
+    margin-right: 12px;
+}
+
+nav {
+    margin-right: 190px;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+
+ * a {
+     text-decoration: none;
+     color: #2F281E;
+}
+
+nav a:first-child {
+    color: #FF9900;
+}
+nav a:not(:last-child) {
+    margin-right: 20px;
+}
+
+.btn {
+    padding: 13px 24px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn1 {
+
+    margin-right: 32px;
+    color: #2F281E;;
+    border: 1px solid #B5B5B5 ;
+
+}
+
+.btn2 {
+
+    color: #FFFFFF;
+    background-color: #FF9900;;
+}
+/*-------------Main-------------------------------------*/
+
+.first-section{
+    display: flex;
+    margin-bottom: 99px;
+}
+
+.main-title {
+
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 28px;
+    padding-right: 15px;
+    margin-bottom: 35px;
+}
+.main-btn {
+    padding: 13px 43px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.main-img {
+    margin-top: -96px;
+}
+
+.main-title2 {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    padding: 0 322px;
+    margin-bottom: 50px;
+}
+
+.tools-items {
+    display: flex;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.item img {
+    margin-bottom: 30px;
+}
+
+.item h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2F281E;
+    margin-bottom: 16px;
+}
+
+.item p {
+    font-weight: 500;
+    color: #544837;
+}
+
+.item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-oval {
+    position: absolute;
+    top: 10px;
+     left: -85px;
+}
+
+.button {
+margin: 0 auto;
+}
