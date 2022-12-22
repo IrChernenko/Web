@@ -1,0 +1,301 @@
+body {
+    max-width: 1440px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*--------------Header----------------------------------*/
+.header {
+    display: flex;
+    margin: 0 auto 167px;
+    padding: 27px 0;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-right: 190px;
+}
+
+.logo_icon {
+    margin-right: 12px;
+}
+
+.header-nav {
+    margin-right: 165px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+* a {
+    text-decoration: none;
+    color: #2F281E;
+}
+
+.header-nav__first-link {
+    color: #FF9900;
+}
+
+.header-nav a {
+    margin-right: 20px;
+}
+
+.header-nav a:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    padding: 13px 24px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn-login {
+    margin-right: 32px;
+    color: #2F281E;
+    border: 1px solid #B5B5B5;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #FF9900;;
+}
+
+/*-------------Main-------------------------------------*/
+.first-section {
+    display: flex;
+    margin-bottom: 99px;
+}
+
+.first-section p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 15px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    padding: 13px 43px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.main-img {
+    margin-top: -96px;
+}
+
+.main-title2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    padding: 0 322px;
+    margin-bottom: 50px;
+}
+
+.tools-items {
+    display: flex;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.item img {
+    margin-bottom: 30px;
+}
+
+.item h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2F281E;
+    margin-bottom: 16px;
+}
+
+.item p {
+    font-weight: 500;
+    color: #544837;
+    line-height: 26px;
+}
+
+/*------Переделать---------------*/
+.item:not(:last-child) {
+    margin-right: 40px;
+}
+
+/*-------------------------------*/
+.second-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-oval {
+    position: absolute;
+    top: 10px;
+    left: -127px;
+}
+
+.button {
+    margin: 0 auto;
+}
+
+/*-----------------Section 3----------------------------*/
+.third-section {
+    padding-top: 186px;
+}
+
+.third-section p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 132px;
+}
+
+h4 {
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.design-professional {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+
+.product-manager {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.img-product {
+    margin-right: 113px;
+}
+
+.product-item {
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 48px;
+}
+
+.product-item::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -53px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-image: url("../img/icon-tick.svg");
+    margin-right: 30px;
+}
+
+.block-product__text {
+    margin-bottom: 40px;
+}
+
+.marketers {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+/*---------Footer---------------------------*/
+hr {
+    margin-bottom: 70px;
+}
+
+.wrapper-footer {
+    display: flex;
+}
+
+.logo-footer {
+    margin-right: 130px;
+}
+
+.footer-contacts {
+    display: flex;
+}
+
+.contacts-links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 147px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.links__title a {
+    flex-grow: 1;
+    font-weight: 500;
+    line-height: 26px;
+    color: #544837;
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 154px;
+}
+
+.info__title a {
+    display: block;
+    flex-grow: 1;
+    font-weight: 500;
+    line-height: 26px;
+    color: #544837;
+}
+
+.frame {
+    border: 1px solid #BCD0E5;
+    padding: 5px 20px 5px 10px;
+}
+
+input {
+    color: #BCD0E5;
+    border: none;
+    width: 194px;
+    height: 29px;
+}
+
+#email {
+    color: #BCD0E5;
+    line-height: 19px;
+    width: 100px;
+}
+
+.contact-form__btn {
+    margin-top: 40px;
+}
+
