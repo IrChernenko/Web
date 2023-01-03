@@ -1,0 +1,103 @@
+
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lang {
+    font-family: 'Tourney', cursive;
+    font-size: 22px;
+    line-height: 18px;
+    margin-right: 50px;
+}
+
+.header-nav {
+    font-family:'Staatliches', cursive;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+h2 {
+    font-family:'Francois One', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.chapter {
+    font-family: 'Farro', sans-serif;
+    font-size:15px ;
+    line-height: 30px;
+    vertical-align: top;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family:'PT Sans', sans-serif;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+/*.text {*/
+/*    text-align: left;*/
+/*}*/
+
+section {
+    margin-top: 70px;
+}
+
+section p {
+    margin-bottom: 40px;
+}
+.handling {
+    margin-bottom: 90px;
+}
+
+.title {
+    display: flex;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.grey-color {
+    background-color: rgb(192,192,192);
+}
+/*------------Header--------------------------*/
+.header {
+    display: flex;
+    justify-content: space-between ;
+    padding-top: 13px;
+}
+
+.header-block {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-nav div:not(:last-child) {
+    margin-right: 10px;
+}
+/*----------------------------------------------*/
