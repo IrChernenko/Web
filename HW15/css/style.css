@@ -1,0 +1,47 @@
+/*font-family: 'Inter', sans-serif;*/
+
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.block {
+    max-width: 570px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 35px 335px 20px 36px;
+}
+
+form {
+    margin: 0px 36px;
+}
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 8px 15px;
+    margin:  0 34px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.name {
+    display: flex;
+}
+
+.first-name {
+   margin-right: 12px;
+}
