@@ -14,6 +14,7 @@ body {
 .logo-icon-block {
     display: flex;
 }
+
 .logo-icon {
     margin-right: 12px;
 }
@@ -37,20 +38,17 @@ a {
 
 .blocks {
     display: flex;
-    margin-bottom: 100px ;
+    margin-bottom: 100px;
 }
 
 .block {
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-}
-
-.block-design, .block-application {
     border: 1px solid #E5EAF4;
 }
 
-.block-ecommerce {
+.block:hover {
     border: 1px solid #3DB370;
 }
 
@@ -70,11 +68,6 @@ a {
     border-radius: 16px;
     margin-right: 206px;
     text-align: center;
-}
-
-.inner-icon {
-    fill: #007FFC;
-    stroke: #007FFC;
 }
 
 .inner-icon:hover {
